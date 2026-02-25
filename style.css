@@ -1,0 +1,14 @@
+:root {
+--bg: #0B0F14;
+--panel: #101722;
+--panel-2: #0F141D;
+--text: #E9EEF6;
+--muted: #AAB6C6;
+--brand: #6EE7FF;
+--brand-2: #A78BFA;
+--line: rgba(255, 255, 255, 0.10);
+
+--success: #34D399;
+--warning: #FBBF24;
+--danger: #F87171;
+}
