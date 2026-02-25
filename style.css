@@ -21,9 +21,10 @@ box-sizing: border-box;
 }
 
 body{
-background: var(--bg);
-color: var(--text);
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ background: var(--bg);
+  color: var(--text);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
 }
 
 .site-header-name{
@@ -44,8 +45,16 @@ gap: 1rem;
 
 .nav a{
 color: var(--text);
-text-decoration: none;
-font-weight: 500;}
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.4rem 0.6rem;
+  border-radius: 8px;}
+
+  .nav a:hover,
+.nav a:focus-visible{
+  background: rgba(255,255,255,0.06);
+  outline: none;
+}
 
 .hero{
 background: var(--panel-2);
@@ -53,14 +62,21 @@ padding: 4rem 2rem;
 display: flex;
 flex-direction: column;
 align-items: flex-start;
-text-align: center;
+
 
 }
 
 .hero .btn{
-background: var(--brand);
-color: var(--bg);
-
-display: inline-block;
-border: none;
+  background: var(--brand);
+  color: var(--bg);
+  display: inline-block;
+  border: none;
+  padding: 0.75rem 1.1rem;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none; 
+}
+.hero .btn:hover{
+  opacity: 0.9;
 }
