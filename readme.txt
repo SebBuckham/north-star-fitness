@@ -11,11 +11,6 @@ https://sebbuckham.github.io/north-star-fitness/
 
 ---
 
-## 📸 Preview
-
-
-
----
 
 ## ✨ Features
 
