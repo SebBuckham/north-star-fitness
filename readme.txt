@@ -6,7 +6,7 @@ Built as a front-end practice project focusing on clean layout, reusable compone
 ---
 
 ## 🔗 Live Demo
-
+https://sebbuckham.github.io/north-star-fitness/
 
 
 ---
