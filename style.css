@@ -21,10 +21,11 @@ box-sizing: border-box;
 }
 
 body{
- background: var(--bg);
+  background: var(--bg);
   color: var(--text);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
+  
 }
 
 .site-header-name{
@@ -61,10 +62,32 @@ background: var(--panel-2);
 padding: 4rem 2rem;
 display: flex;
 flex-direction: column;
-align-items: flex-start;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;}
 
+
+.eyebrow{
+  color: var(--brand);
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 0.25rem 0.75rem;
 
 }
+
+.hero-text{
+
+  width: 100%;
+  max-width: 620px;
+  margin: 0 auto 2rem;
+  background: var(--panel);
+  padding: 2rem;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+}
+
 
 .hero .btn{
   background: var(--brand);
@@ -76,7 +99,45 @@ align-items: flex-start;
   font-weight: 600;
   cursor: pointer;
   text-decoration: none; 
+  gap: 0.75rem;
+  margin-top: 0.6rem;
+  
 }
 .hero .btn:hover{
   opacity: 0.9;
 }
+.hero-box{
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+.hero-text p{
+  margin-top: 1rem;
+  color: var(--muted);
+ 
+}
+
+.hero-text h3{
+  margin-top: 1rem;
+  color: var(--muted);
+  
+  
+}
+
+
+
+.hero-box-1,
+.hero-box-2,
+.hero-box-3{
+  margin-top: 0;
+  background: var(--panel);
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  text-align: center;
+
+  flex: 1 1 180px; /* grow, shrink, minimum width */
+}
+
+
