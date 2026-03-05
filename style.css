@@ -115,7 +115,7 @@ align-items: center;}
 .hero-text p{
   margin-top: 1rem;
   color: var(--muted);
- 
+
 }
 
 .hero-text h3{
@@ -145,6 +145,90 @@ align-items: center;}
 }
 
 
+
+
+.everything-you-need{
+
+
+
+background: var(--panel-2);
+padding: 4rem 2rem;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;}
+
+.features{
+display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+
+}
+
+
+
+.coached-sessions ,
+.simple-tracking,
+.beginner-friendly{
+  margin-top: 0;
+  background: var(--panel);
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  text-align: center;
+
+  flex: 1 1 180px; /* grow, shrink, minimum width */
+}
+.calms-space{
+
+  background: var(--panel-2);
+padding: 4rem 2rem;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+
+
+
+}
+
+
+
+.calms-space-text{
+  width: 100%;
+  max-width: 620px;
+  margin: 4 auto 2rem;
+  margin-top: 20px;
+  background: var(--panel);
+  padding: 2rem;
+  padding-top: 20px;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+
+}
+
+
+.calms-space-text ul{
+  width: 100%;
+  max-width: 620px;
+  margin: 4 auto 2rem;
+  margin-top: 20px;
+  background: var(--panel);
+  padding: 2rem;
+  padding-top: 20px;
+  border-radius: 10px;
+  
+
+}
+
+.calms-space-text h3{
+  margin-bottom: 10px
+
+}
+
 @media (max-width: 680px){
 
   /* Stack logo + nav */
@@ -169,8 +253,35 @@ align-items: center;}
     background: rgba(255,255,255,0.03);
   }
 
+
+  .calms-space-text{
+
+  width: 100%;
+  max-width: 620px;
+  margin: 0 auto 2rem;
+  background: var(--panel);
+  padding: 2rem;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+}
+
   /* Hide the burger link you added */
   .mobile-menu-toggle{
     display: none;
   }
+.features{
+   flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+    padding: 1rem;
+}
+
+
+.calms-space{
+  flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+    padding: 1rem;
+}
+
 }
